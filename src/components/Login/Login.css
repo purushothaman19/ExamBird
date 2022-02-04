@@ -1,0 +1,56 @@
+
+#login-section{
+    padding: 5% 15%;
+}
+
+p.suggestion{
+    font-family: 'caveat', cursive;
+    font-size: large;
+}
+
+p.suggestion a{
+    color:white;
+    transition: all 0.5s;
+}
+
+p.suggestion a:hover{
+    text-decoration: none;
+    opacity: 0.5 !important;
+    color:white !important;
+}
+
+h3{
+    margin-top: 10px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: xx-large;
+}
+
+form{
+    width: 50%;
+    padding: 5%;
+    margin-left: 20%;
+    background: #8FD6E1;
+
+    border-radius: 9px;
+    transition: all 1s;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
+
+}
+
+button#submit{
+    transition: all 1s !important;
+    border-radius: 999px !important;
+
+    background: rgb(255, 255, 255) !important;
+    color: #000 !important;
+    font-family: 'Righteous', cursive !important; 
+}
+
+button#submit:hover{
+    box-shadow: 0 5px 15px rgba(116, 100, 100, 0.6);
+}
+
+input{
+    font-family: 'Courier New', Courier, monospace !important;
+}

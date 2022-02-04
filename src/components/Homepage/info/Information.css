@@ -1,0 +1,110 @@
+.Info{
+    margin: 5% auto;
+    padding: 2%;
+    background: #d4f3f8;
+    border-radius: 9px;
+}
+
+#info-card{
+    background: none !important;
+    box-shadow: none !important;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    margin-top: 10%;
+    /* padding-top: 2%; */
+}
+
+h1.info-title{
+    margin-bottom: 0%;
+}
+
+img#info-logo{
+    padding-bottom: 2%;
+}
+
+.Info p{
+    text-align: justify;
+}
+
+.social-section{
+    margin-top: 2% !important;
+}
+
+p#desc-text{
+    font-family: 'Caveat', cursive;
+    font-size: 140%;
+}
+
+p#author{
+    font-family: 'Caveat', cursive;
+    font-size: 150%;
+}
+
+.uk-button{
+    font-family: 'Caveat', cursive;
+}
+
+ul#social{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+ul#social li {
+    float: right;
+  }
+  
+ul#social  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 16px;
+    /* padding-right: 2px; */
+    transition: all 0.8s;
+  }
+  
+ul#social li a:hover {
+    opacity: 0.4;
+  }
+
+span#copywrite-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7rem;
+    padding-left: 9%;
+}
+
+/* 
+@media (max-width: 320px) {
+    span#copywrite-text {
+        position:initial !important;
+        top: 0 !important;
+        right:0 !important;
+    }   
+}
+
+@media (max-width: 768px) {
+    span#copywrite-text {
+        position: absolute;
+        top: 75%;
+        right: 33%;
+    }   
+}
+
+@media (min-width: 1024px) {
+    span#copywrite-text {
+        position: absolute;
+        top: 125px;
+        right: 20%;
+    }   
+}
+
+@media (min-width: 1440px) {
+    span#copywrite-text {
+        position: absolute;
+        top: 125px;
+        right: 29%;
+    }   
+} */

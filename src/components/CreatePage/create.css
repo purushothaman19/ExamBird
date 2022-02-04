@@ -1,0 +1,64 @@
+
+#create-section{
+    margin: 5%;
+}
+
+.create-card{
+    width: 20% !important;
+}
+
+.create-card:hover{
+    opacity: 0.8 !important;
+    box-shadow: 0 5px 15px #F8C446 !important;
+}
+
+.ostrich-card:hover{
+    box-shadow: 0 5px 15px #8FD6E1 !important;
+}
+
+ul{
+    margin: auto 25%;
+    transition: all 1s;
+}
+
+.uk-list-primary>::before {
+    color: #a8d3fd!important;
+}
+
+.ul-sparrow>::before{
+    color: #F8C446 !important;
+}
+
+.uk-list-disc>::before {
+    list-style-type: disclosure-closed;
+}
+
+ul:hover{
+    color: #8FD6E1;
+}
+
+h3#sparrow{
+    color: #F8C446 !important;
+}
+
+.uk-button-s-create, .uk-button-o-create{
+    margin-top: 5%;
+    background: #F8C446;
+    border-radius: 999px;
+    text-transform: none !important;
+    font-size: large;
+}
+
+.uk-button-o-create{
+    background: #77b8fa;
+}
+
+
+
+.uk-button-s-create a, .uk-button-o-create a{
+    color: white;
+}
+
+.uk-button-s-create a, .uk-button-o-create a:hover {
+    text-decoration: none !important;
+}

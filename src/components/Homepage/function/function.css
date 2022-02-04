@@ -1,0 +1,27 @@
+
+.function-section{
+    margin-top: 5%;
+    background: #c5f0f7;
+    padding: 3% 10%;
+
+    border-radius: 50px 1px;
+}
+
+h2{
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 0% !important;
+}
+
+#function-bird{
+    width: 5%;
+    margin-bottom: 2%;
+}
+
+.functions{
+    margin-top: 5%;
+}
+
+
+.function-card{
+    background: #8FD6E1 !important;
+}

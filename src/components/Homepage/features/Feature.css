@@ -1,0 +1,29 @@
+
+.uk-sticky{
+    padding-top: 3%;
+}
+
+.uk-card{
+    transition: all 1s;
+    border-radius: 9px;
+}
+
+.uk-card:hover:not(#info-card){
+    opacity: 0.6;
+}
+
+.feature-card{
+    background: #c5f0f7 !important;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(124, 124, 124);
+
+}
+
+.uk-card-default h3{
+    color: #8FD6E1 !important;
+    font-family: 'Fugaz One', cursive;
+}
+
+.uk-card .function-title{
+    color: rgb(17, 39, 3) !important;
+}
