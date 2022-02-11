@@ -18,9 +18,7 @@ function ScrollTop(props) {
   });
 
   const handleClick = (event) => {
-    const anchor = (event.target.ownerDocument || document).querySelector(
-      'body',
-    );
+    const anchor = (event.target.ownerDocument || document).querySelector('*');
 
     if (anchor) {
       anchor.scrollIntoView({
